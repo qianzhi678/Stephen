@@ -1,0 +1,109 @@
+{
+    "collectionName": "Essential Computer Science Masterpieces",
+    "publisher": "CodeCraft Publications",
+    "yearPublished": 2024,
+    "location": "Digital Archive",
+    "available": true,
+    "books": [
+        {
+            "title": "The Art of Computer Programming",
+            "author": "Donald E. Knuth",
+            "pages": 672,
+            "topics": [
+                "Algorithm Analysis",
+                "Mathematical Programming",
+                "Classic CS"
+            ]
+        },
+        {
+            "title": "Code: The Hidden Language of Computer Hardware and Software",
+            "author": "Charles Petzold",
+            "pages": 400,
+            "topics": [
+                "Computer Architecture",
+                "Binary Systems",
+                "Fundamentals"
+            ]
+        },
+        {
+            "title": "Computer Systems: A Programmer's Perspective",
+            "author": "Randal E. Bryant, David R. O'Hallaron",
+            "pages": 1080,
+            "topics": [
+                "Systems Programming",
+                "Computer Organization",
+                "Performance Optimization"
+            ]
+        },
+        {
+            "title": "The Mythical Man-Month: Essays on Software Engineering",
+            "author": "Frederick P. Brooks Jr.",
+            "pages": 336,
+            "topics": [
+                "Software Management",
+                "Project Planning",
+                "Team Dynamics"
+            ]
+        },
+        {
+            "title": "Refactoring: Improving the Design of Existing Code",
+            "author": "Martin Fowler",
+            "pages": 448,
+            "topics": [
+                "Code Quality",
+                "Software Maintenance",
+                "Object-Oriented Design"
+            ]
+        },
+        {
+            "title": "Compilers: Principles, Techniques, and Tools",
+            "author": "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman",
+            "pages": 1000,
+            "topics": [
+                "Compiler Design",
+                "Parsing Techniques",
+                "Language Implementation"
+            ]
+        },
+        {
+            "title": "Site Reliability Engineering: How Google Runs Production Systems",
+            "author": "Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy",
+            "pages": 552,
+            "topics": [
+                "DevOps",
+                "System Administration",
+                "Cloud Computing"
+            ]
+        },
+        {
+            "title": "The C Programming Language",
+            "author": "Brian W. Kernighan, Dennis M. Ritchie",
+            "pages": 288,
+            "topics": [
+                "C Language",
+                "Systems Programming",
+                "Classic Texts"
+            ]
+        },
+        {
+            "title": "Types and Programming Languages",
+            "author": "Benjamin C. Pierce",
+            "pages": 645,
+            "topics": [
+                "Type Theory",
+                "Programming Language Design",
+                "Formal Methods"
+            ]
+        },
+        {
+            "title": "Computer Networks: A Systems Approach",
+            "author": "Larry L. Peterson, Bruce S. Davie",
+            "pages": 920,
+            "topics": [
+                "Networking",
+                "Protocols",
+                "Distributed Systems"
+            ]
+        }
+    ]
+}
