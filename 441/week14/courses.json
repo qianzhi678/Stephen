@@ -1,0 +1,37 @@
+[
+    {
+        "courseCode": "ICT50220",
+        "courseName": "Diploma of Information Technology",
+        "description": "A comprehensive diploma covering networking, programming, and database management to prepare you for a career in the IT industry.",
+        "assessmentRequirements": "Includes written assignments, practical lab projects, and a final capstone project.",
+        "sampleProjects": "Network design for a small business, developing a full-stack web application."
+    },
+    {
+        "courseCode": "ICT40120",
+        "courseName": "Certificate IV in Information Technology",
+        "description": "Build foundational IT skills in hardware, software, and networking. This course is a great entry point into the tech world.",
+        "assessmentRequirements": "Practical skills tests, multiple-choice exams, and portfolio submissions.",
+        "sampleProjects": "PC assembly and troubleshooting, basic network setup."
+    },
+    {
+        "courseCode": "CYB60120",
+        "courseName": "Advanced Diploma of Cyber Security",
+        "description": "Specialize in protecting digital assets. Learn about ethical hacking, threat analysis, and risk management.",
+        "assessmentRequirements": "Penetration testing reports, security audits, and incident response simulations.",
+        "sampleProjects": "Conducting a vulnerability assessment, developing a security policy."
+    },
+    {
+        "courseCode": "PRG50120",
+        "courseName": "Diploma of Programming",
+        "description": "Master programming languages like Python and JavaScript. Focus on software development and algorithm design.",
+        "assessmentRequirements": "Coding challenges, group software projects, and code reviews.",
+        "sampleProjects": "Creating a mobile app, building a data analysis tool."
+    },
+    {
+        "courseCode": "WEB50220",
+        "courseName": "Diploma of Website Development",
+        "description": "Learn to design, build, and manage modern websites using the latest front-end and back-end technologies.",
+        "assessmentRequirements": "Website creation projects, technical documentation, and user experience (UX) reports.",
+        "sampleProjects": "Building an e-commerce site, developing a content management system."
+    }
+]

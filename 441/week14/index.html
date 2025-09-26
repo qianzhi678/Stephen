@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Skills Academy - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="nav-branding">Tech Skills Academy</div>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="browse.html" class="nav-link">Resource Kits</a>
+                    <a href="shopping_cart.html" class="nav-link">Shopping Cart</a>
+                    <a href="order_management.html" class="nav-link">Order Management</a>
+                </div>
+                <div id="user-greeting" class="user-greeting"></div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="banner-container">
+            <img src="images/banner.png" alt="Tech Skills Academy Banner" class="banner-image">
+        </div>
+        
+        <section class="company-intro">
+            <h2>About Tech Skills Academy</h2>
+            <p>Tech Skills Academy is Australia's leading Registered Training Organization (RTO) in the IT field, dedicated to providing nationally recognized qualifications and high-quality training resources to shape the next generation of tech professionals.</p>
+            
+            <h3>Our Unique Values</h3>
+            <ul>
+                <li><strong>Quality Assurance:</strong> All our training materials are developed by industry experts and align with the latest industry standards.</li>
+                <li><strong>Career-Focused Learning:</strong> We focus on practical, hands-on skills that are directly applicable in the modern IT workplace.</li>
+                <li><strong>Flexible Delivery:</strong> Our resource kits enable self-paced learning to fit your schedule.</li>
+            </ul>
+
+            <!-- This new section will display the IT courses from courses.json -->
+            <h2 style="margin-top: 2rem;">Our IT Courses</h2>
+            <div id="course-list" class="product-grid">
+                <!-- IT Courses will be dynamically inserted here by script.js -->
+            </div>
+        </section>
+
+        <div class="auth-cta">
+            <p>To purchase training kits, please <a href="login.html">login</a> or <a href="register.html">create an account</a>.</p>
+        </div>
+    </main>
+
+    <footer class="app-footer">
+        <p>Developed for ICTWEB441 Assessment</p>
+        <p>Address: 123 Education Street, Sydney, NSW 2000, Australia</p>
+        <p>Phone: (02) 1234 5678</p>
+        <p>Email: contact@techskillsacademy.edu.au</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

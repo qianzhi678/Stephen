@@ -1,0 +1,72 @@
+[
+    {
+        "id": "ICTWEB441",
+        "name": "Produce basic client-side script",
+        "price": 79.99,
+        "description": "A complete kit with guides and lab exercises for mastering fundamental client-side scripting with JavaScript.",
+        "image": "images/resource1.jpg"
+    },
+    {
+        "id": "ICTPRG418",
+        "name": "Apply introductory programming skills",
+        "price": 89.50,
+        "description": "Learn the basics of programming logic and structure with this hands-on resource kit for beginners.",
+        "image": "images/resource2.jpg"
+    },
+    {
+        "id": "ICTNWK529",
+        "name": "Install and manage complex networks",
+        "price": 120.00,
+        "description": "This kit provides virtual labs and detailed tutorials for setting up and managing enterprise-level networks.",
+        "image": "images/resource3.jpg"
+    },
+    {
+        "id": "ICTDBS502",
+        "name": "Design and build complex databases",
+        "price": 110.00,
+        "description": "Master SQL and database design principles with practical scenarios and sample data for complex projects.",
+        "image": "images/resource4.jpg"
+    },
+    {
+        "id": "ICTSEC509",
+        "name": "Implement security risk management",
+        "price": 95.00,
+        "description": "A practical guide to identifying, assessing, and mitigating security risks in an IT environment.",
+        "image": "images/resource5.jpg"
+    },
+    {
+        "id": "ICTSAD501",
+        "name": "Model data objects",
+        "price": 65.00,
+        "description": "Learn system analysis and design by modeling data objects with UML and other diagramming tools.",
+        "image": "images/resource6.jpg"
+    },
+    {
+        "id": "ICTICT517",
+        "name": "Match ICT needs with strategic direction",
+        "price": 75.00,
+        "description": "A kit for IT managers focusing on aligning technology solutions with business goals and strategies.",
+        "image": "images/resource7.jpg"
+    },
+    {
+        "id": "BSBCRT512",
+        "name": "Originate and develop concepts",
+        "price": 55.00,
+        "description": "Develop your creative thinking and problem-solving skills with this kit focused on innovation and design.",
+        "image": "images/resource8.jpg"
+    },
+    {
+        "id": "ICTPRG527",
+        "name": "Apply advanced programming skills",
+        "price": 150.00,
+        "description": "Take your coding to the next level with advanced algorithms, data structures, and software patterns.",
+        "image": "images/resource9.jpg"
+    },
+    {
+        "id": "ICTCLD502",
+        "name": "Develop cloud computing solutions",
+        "price": 135.00,
+        "description": "Gain hands-on experience with major cloud platforms and learn to deploy scalable applications.",
+        "image": "images/resource10.jpg"
+    }
+]

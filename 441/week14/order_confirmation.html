@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Skills Academy - Order Confirmation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <nav class="main-nav">
+                <div class="nav-branding">Tech Skills Academy</div>
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="browse.html" class="nav-link">Resource Kits</a>
+                    <a href="shopping_cart.html" class="nav-link">Shopping Cart</a>
+                    <a href="order_management.html" class="nav-link">Order Management</a>
+                </div>
+                <div id="user-greeting" class="user-greeting"></div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="order-page">
+            <h2>Order Summary</h2>
+            <ul class="order-items-list" id="order-items-list">
+                <!-- Order items will be dynamically inserted here -->
+            </ul>
+            <div id="order-total-display" class="order-total-display">
+                <!-- Total price will be dynamically inserted here -->
+            </div>
+            <div class="order-actions">
+                <a href="shopping_cart.html" class="btn">Edit Cart</a>
+                <button id="confirm-order" class="btn">Confirm Order</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>Developed for ICTWEB441 Assessment</p>
+        <p>Address: 123 Education Street, Sydney, NSW 2000, Australia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
