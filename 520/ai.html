@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嘿嘿嘿</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+            /* 使用更深邃、更具氛围感的渐变背景 */
+            background: linear-gradient(45deg, #ff9a9e, #fecfef, #a18cd1, #fbc2eb);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .heart-btn {
+            padding: 20px 40px;
+            font-size: 1.5em;
+            color: white;
+            background: #ff6b81;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            z-index: 10; /* 确保按钮在爱心上层 */
+            white-space: nowrap; /* 防止文字换行 */
+        }
+
+        .heart-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        .heart-btn:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .heart {
+            position: absolute;
+            pointer-events: none; /* 让爱心不会干扰鼠标点击 */
+            background: var(--heart-color, #ff6b81);
+            transform: rotate(var(--rotation, -45deg));
+            animation: floatUp 5s ease-out forwards;
+        }
+
+        .heart::before,
+        .heart::after {
+            content: '';
+            position: absolute;
+            background: var(--heart-color, #ff6b81);
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+        }
+
+        .heart::before {
+            top: -50%;
+            left: 0;
+        }
+
+        .heart::after {
+            top: 0;
+            left: 50%;
+        }
+
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0) rotate(var(--rotation, -45deg));
+                opacity: 1;
+            }
+            100% {
+                /* 让爱心飘得更远，并且有水平位移，看起来更自然 */
+                transform: translateY(-110vh) translateX(var(--x-drift)) rotate(var(--rotation, -45deg));
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 修改了初始按钮文字 -->
+    <button class="heart-btn" id="createHeartBtn">笨猪，点我有惊喜哦！</button>
+
+    <script>
+        const button = document.getElementById('createHeartBtn');
+
+        // 定义一组浪漫的颜色
+        const romanticColors = ['#ff6b81', '#ff4757', '#e056fd', '#ff8e6e', '#fbc2eb'];
+
+        // 新增一个变量来判断是否是第一次点击
+        let isFirstClick = true;
+
+        button.addEventListener('click', (event) => {
+            // **新增功能：如果是第一次点击，就改变按钮的文字**
+            if (isFirstClick) {
+                button.textContent = '朱怡静，天天开心！';
+                isFirstClick = false; // 将变量设为 false，这样下次点击就不会再改变文字了
+            }
+
+            // 定义每次点击生成的爱心数量
+            const heartCount = 15;
+            for (let i = 0; i < heartCount; i++) {
+                // 使用 setTimeout 让爱心有层次地迸发出来
+                setTimeout(() => {
+                    createHeart(event.clientX, event.clientY);
+                }, i * 20);
+            }
+        });
+
+        function createHeart(x, y) {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+
+            // 1. 大幅增加爱心尺寸
+            const size = Math.random() * 80 + 40; // 尺寸在 40px 到 120px 之间
+            heart.style.width = size + 'px';
+            heart.style.height = size + 'px';
+            
+            // 爱心从点击的位置出现
+            heart.style.left = x - (size / 2) + 'px';
+            heart.style.top = y - (size / 2) + 'px';
+            
+            // 2. 随机化效果，让场面更震撼
+            // 随机颜色
+            const color = romanticColors[Math.floor(Math.random() * romanticColors.length)];
+            heart.style.setProperty('--heart-color', color);
+            
+            // 随机水平漂移距离
+            const xDrift = (Math.random() - 0.5) * 400; // 在 -200px 到 200px 之间漂移
+            heart.style.setProperty('--x-drift', `${xDrift}px`);
+
+            // 随机旋转角度
+            const rotation = (Math.random() - 0.5) * 60 - 45; // 在 -75deg 到 -15deg 之间
+            heart.style.setProperty('--rotation', `${rotation}deg`);
+
+            // 随机动画时长
+            const animationDuration = Math.random() * 3 + 4; // 4s to 7s
+            heart.style.animationDuration = `${animationDuration}s`;
+            
+            document.body.appendChild(heart);
+
+            // 动画结束后移除爱心元素，避免页面卡顿
+            setTimeout(() => {
+                heart.remove();
+            }, animationDuration * 1000);
+        }
+    </script>
+
+</body>
+</html>
