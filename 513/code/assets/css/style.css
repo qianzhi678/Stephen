@@ -1,0 +1,217 @@
+/* assets/css/style.css - With Dark Mode Support */
+
+:root {
+    /* --- LIGHT MODE VARIABLES (Default) --- */
+    --primary: #2C5E43;       /* Deep Forest Green */
+    --primary-hover: #1F4430;
+    --text-main: #1A202C;     /* Dark Grey Text */
+    --text-light: #4A5568;
+    
+    /* Backgrounds */
+    --bg-white: #FFFFFF;      /* Pure White */
+    --bg-mint: #F0F7F4;       /* Pale Mint */
+    --bg-warm: #FAF9F6;       /* Warm Grey */
+    
+    /* UI Elements */
+    --border-radius: 12px;
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+    --shadow-md: 0 8px 30px rgba(0,0,0,0.08);
+    --nav-bg: rgba(255, 255, 255, 0.95);
+    --footer-bg: #1A202C;
+    --footer-text: rgba(255,255,255,0.6);
+    
+    --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* --- DARK MODE VARIABLES (Overrides) --- */
+[data-theme="dark"] {
+    --primary: #4ADE80;       /* Brighter Green for dark background */
+    --primary-hover: #22c55e;
+    --text-main: #F7FAFC;     /* White Text */
+    --text-light: #A0AEC0;    /* Light Grey Text */
+    
+    /* Dark Backgrounds */
+    --bg-white: #111827;      /* Very Dark Blue/Grey */
+    --bg-mint: #064E3B;       /* Dark Green */
+    --bg-warm: #1F2937;       /* Dark Grey */
+    
+    --nav-bg: rgba(17, 24, 39, 0.95); /* Dark Nav */
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.5);
+    --shadow-md: 0 8px 30px rgba(0,0,0,0.5);
+}
+
+/* --- Global Base --- */
+body {
+    font-family: var(--font-family);
+    color: var(--text-main);
+    background-color: var(--bg-white);
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--primary);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+}
+
+/* --- Navigation --- */
+nav.container-fluid {
+    background-color: var(--nav-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.8rem 0;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a {
+    color: var(--text-main);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+/* Toggle Button Style */
+#theme-toggle {
+    background: transparent;
+    border: 1px solid var(--text-main);
+    color: var(--text-main);
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+#theme-toggle:hover {
+    background-color: var(--text-main);
+    color: var(--bg-white);
+}
+
+/* Admin Button */
+nav a.contrast[role="button"] {
+    background-color: var(--text-main);
+    color: var(--bg-white);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    padding: 8px 16px;
+}
+
+/* --- Hero Section --- */
+#hero {
+    /* Background works for both modes */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1920');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 12rem 1rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#hero h1 { color: white; font-size: 3.5rem; margin-bottom: 1.5rem; }
+#hero p { color: rgba(255, 255, 255, 0.9); font-size: 1.25rem; max-width: 600px; margin: 0 auto 2rem auto; }
+
+#hero a[role="button"] {
+    background-color: white;
+    color: #2C5E43; /* Always Green text on Hero button */
+    border: none;
+    font-weight: bold;
+    padding: 16px 32px;
+    border-radius: 50px;
+    transition: transform 0.2s;
+}
+#hero a[role="button"]:hover { transform: translateY(-2px); }
+
+/* --- Sections --- */
+
+/* 1. How It Works */
+#how-it-works {
+    background-color: var(--bg-white);
+    padding: 6rem 0;
+    transition: background-color 0.3s ease;
+}
+#how-it-works h2 { text-align: center; margin-bottom: 3rem; font-size: 2.5rem; }
+#how-it-works article {
+    background: var(--bg-white);
+    border: 1px solid var(--text-light); /* Slight border for visibility */
+    border-radius: var(--border-radius);
+    padding: 2.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+#how-it-works article:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-5px);
+}
+
+/* 2. Calculator */
+#impact-calculator {
+    background-color: var(--bg-mint) !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 6rem 1rem !important;
+    border: none !important;
+    transition: background-color 0.3s ease;
+}
+#impact-calculator .grid { max-width: 1000px; margin: 0 auto; align-items: center; }
+#impact-calculator input {
+    background: var(--bg-white);
+    color: var(--text-main);
+    border: 1px solid var(--text-light);
+    padding: 12px;
+    border-radius: 8px;
+}
+#impact-calculator button {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: var(--bg-white);
+    border-radius: 8px;
+    padding: 12px 24px;
+}
+
+/* 3. Gallery */
+#inspiration-gallery {
+    background-color: var(--bg-warm);
+    padding: 6rem 0;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+#inspiration-gallery h2 { text-align: center; margin-bottom: 3rem; }
+#inspiration-gallery figure {
+    margin: 0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    background: var(--bg-white);
+    padding: 10px;
+}
+#inspiration-gallery img {
+    border-radius: 6px;
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+#inspiration-gallery figure:hover img { transform: scale(1.05); }
+
+/* --- Footer --- */
+footer.container {
+    background-color: var(--footer-bg);
+    color: var(--footer-text);
+    padding: 4rem 8%; 
+    margin-top: 0;
+    max-width: 100% !important;
+    text-align: center;
+}
+footer small { font-size: 0.9rem; }
