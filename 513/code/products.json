@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "name": "Solid Dish Soap Bar",
+        "description": "A powerful, plastic-free alternative to liquid dish soap. Cuts through grease and lasts for months.",
+        "price": 14.00,
+        "image_url": "https://images.unsplash.com/photo-1585145868057-135bf14b0503?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fFNvbGlkJTIwRGlzaCUyMFNvYXAlMjBCYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Ingredients: Saponified Coconut Oil, Olive Oil, Water, Lemon Essential Oil. 100% Vegan and Palm-Oil Free."
+    },
+    {
+        "id": 2,
+        "name": "Bamboo Pot Scrubber Brush",
+        "description": "Made from sustainable bamboo and tough plant-based bristles. Perfect for scrubbing pots and pans without scratching.",
+        "price": 8.50,
+        "image_url": "https://plus.unsplash.com/premium_photo-1673567871566-dacc2f120fa9?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmFtYm9vJTIwUG90JTIwU2NydWJiZXIlMjBCcnVzaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Material: Moso Bamboo handle, Sisal fiber bristles. Compostable at end of life."
+    },
+    {
+        "id": 3,
+        "name": "Reusable Beeswax Food Wraps (Set of 3)",
+        "description": "The perfect, washable, and reusable replacement for plastic wrap. Keep your food fresh naturally.",
+        "price": 20.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1664303631884-5e1da0bf5e33?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmV1c2FibGUlMjBCZWVzd2F4JTIwRm9vZCUyMFdyYXBzJTIwKFNldCUyMG9mJTIwMyl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Set of 3 (Small, Medium, Large). Made with Organic Cotton, Beeswax, Jojoba Oil, and Tree Resin."
+    },
+    {
+        "id": 4,
+        "name": "Zero-Waste Shampoo Bar",
+        "description": "Nourishing, salon-quality shampoo in a solid bar. One bar replaces up to 3 plastic bottles.",
+        "price": 15.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1661333596291-f4ddca654f19?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8WmVyby1XYXN0ZSUyMFNoYW1wb28lMjBCYXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Scent: Lavender & Mint. Good for 50-70 washes. Sulfate-free and Paraben-free."
+    },
+    {
+        "id": 5,
+        "name": "Bamboo Toothbrush",
+        "description": "A 100% biodegradable bamboo handle with charcoal-infused bristles for a clean smile and a clean planet.",
+        "price": 6.00,
+        "image_url": "https://images.unsplash.com/photo-1589365252845-092198ba5334?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmFtYm9vJTIwVG9vdGhicnVzaHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Bristles: Charcoal infused Nylon-4. Handle: Heat-treated Bamboo for water resistance."
+    },
+    {
+        "id": 6,
+        "name": "Reusable Cotton Facial Rounds (10-Pack)",
+        "description": "Soft, washable cotton rounds to replace disposable makeup remover pads. Comes with a small laundry bag.",
+        "price": 18.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1677362384823-6548cf1b2bb7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmV1c2FibGUlMjBDb3R0b24lMjBGYWNpYWwlMjBSb3VuZHMlMjAoMTAtUGFjayl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Includes: 10 Bamboo-Cotton rounds + 1 Mesh Laundry Bag. Machine washable."
+    },
+    {
+        "id": 7,
+        "name": "Wool Dryer Balls (Set of 3)",
+        "description": "A natural fabric softener that reduces drying time and waste. Replaces single-use dryer sheets.",
+        "price": 16.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1675799807356-6e97c49f22ce?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V29vbCUyMERyeWVyJTIwQmFsbHMlMjAoU2V0JTIwb2YlMjAzKXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Material: 100% New Zealand Wool. Lasts for 1000+ loads. Reduces static and wrinkles."
+    },
+    {
+        "id": 8,
+        "name": "Eco-Friendly Laundry Strips",
+        "description": "Ultra-concentrated, plastic-free laundry detergent that dissolves completely in the wash. Tough on stains, gentle on the planet.",
+        "price": 19.50,
+        "image_url": "https://plus.unsplash.com/premium_photo-1737073520175-b3303a6e1e76?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RWNvLUZyaWVuZGx5JTIwTGF1bmRyeSUyMFN0cmlwc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Pack of 32 strips. Hypoallergenic, Phosphate-free, and Biodegradable."
+    },
+    {
+        "id": 10,
+        "name": "Natural Stain Remover Stick",
+        "description": "A powerful, plant-based stain remover that works on tough stains like grass, wine, and coffee without harsh chemicals.",
+        "price": 12.00,
+        "image_url": "https://images.unsplash.com/photo-1636396279211-25e3a26b2621?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TmF0dXJhbCUyMFN0YWluJTIwUmVtb3ZlciUyMFN0aWNrfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Ingredients: Coconut Oil, Sodium Hydroxide, Lemon Essential Oil, Borax."
+    },
+    {
+        "id": 11,
+        "name": "\"Unpaper\" Reusable Towels (6-Pack)",
+        "description": "A set of 6 washable and super-absorbent cotton towels to replace disposable paper towels.",
+        "price": 22.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1675799686553-9a3ac3819f2f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8JTIyVW5wYXBlciUyMiUyMFJldXNhYmxlJTIwVG93ZWxzJTIwKDYtUGFjayl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=700",
+        "extra_details": "Set of 6. Material: 100% Organic Flannel Cotton. Clings together on a roll."
+    },
+    {
+        "id": 12,
+        "name": "Reusable Glass Spray Bottle",
+        "description": "A durable, refillable glass bottle for your DIY cleaning solutions. Reduce plastic waste with every spray.",
+        "price": 14.50,
+        "image_url": "https://plus.unsplash.com/premium_photo-1760620294147-61a25bb2d6a8?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UmV1c2FibGUlMjBHbGFzcyUyMFNwcmF5JTIwQm90dGxlfGVufDB8fDB8fHww",
+        "extra_details": "Capacity: 16oz. Features a silicone sleeve for grip and protection."
+    },
+    {
+        "id": 13,
+        "name": "Stainless Steel Straw Set",
+        "description": "Say no to plastic straws forever with this durable set.",
+        "price": 10.00,
+        "image_url": "https://images.unsplash.com/photo-1631237535331-8d5f0a7bacbe?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3RhaW5sZXNzJTIwU3RlZWwlMjBTdHJhdyUyMFNldHxlbnwwfHwwfHx8MA%3D%3D",
+        "extra_details": "Includes: 2 bent straws, 2 straight straws, 1 cleaning brush, 1 travel pouch."
+    },
+    {
+        "id": 14,
+        "name": "Biodegradable Phone Case",
+        "description": "Protect your phone and the planet. Compostable.",
+        "price": 35.00,
+        "image_url": "https://images.unsplash.com/photo-1705665852844-a122eda06ba4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmlvZGVncmFkYWJsZSUyMFBob25lJTIwQ2FzZXxlbnwwfHwwfHx8MA%3D%3D",
+        "extra_details": "Made from flax straw and plant-based biopolymers. Drop tested to 5ft."
+    },
+    {
+        "id": 15,
+        "name": "Coconut Bowl & Spoon",
+        "description": "Handcrafted from reclaimed coconut shells.",
+        "price": 12.50,
+        "image_url": "https://images.unsplash.com/photo-1601628403125-e02115bcb0fe?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q29jb251dCUyMEJvd2wlMjAlMjYlMjBTcG9vbnxlbnwwfHwwfHx8MA%3D%3D",
+        "extra_details": "Polished with coconut oil. Perfect for smoothie bowls and salads."
+    },
+    {
+        "id": 16,
+        "name": "Loofah Sponges (3-Pack)",
+        "description": "Natural plant-based scrubbers for dishes or body.",
+        "price": 9.00,
+        "image_url": "https://images.unsplash.com/photo-1577369117918-7e3785e39cb7?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TG9vZmFoJTIwU3BvbmdlcyUyMCgzLVBhY2spfGVufDB8fDB8fHww",
+        "extra_details": "100% natural dried loofah gourd. Expands when wet. Fully compostable."
+    },
+    {
+        "id": 17,
+        "name": "Silicone Baking Mat",
+        "description": "Non-stick baking surface, replaces parchment paper.",
+        "price": 18.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1750860247939-f31ddb6ed5f8?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U2lsaWNvbmUlMjBCYWtpbmclMjBNYXR8ZW58MHx8MHx8fDA%3D",
+        "extra_details": "Food grade silicone. Heat resistant up to 480°F. Dishwasher safe."
+    },
+    {
+        "id": 18,
+        "name": "Mesh Produce Bags",
+        "description": "Lightweight bags for grocery shopping.",
+        "price": 11.50,
+        "image_url": "https://images.unsplash.com/photo-1634640910682-fbeb74cfa1a2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVzaCUyMFByb2R1Y2UlMjBCYWdzfGVufDB8fDB8fHww",
+        "extra_details": "Set of 5 (various sizes). Made from organic cotton mesh. Tare weight tag included."
+    },
+    {
+        "id": 19,
+        "name": "Bamboo Travel Cutlery",
+        "description": "Eat on the go without single-use plastic forks.",
+        "price": 13.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1736505437580-7d2dfc89994e?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmFtYm9vJTIwVHJhdmVsJTIwQ3V0bGVyeXxlbnwwfHwwfHx8MA%3D%3D",
+        "extra_details": "Includes: Knife, Fork, Spoon, Chopsticks, Straw, Cleaner, and Canvas Pouch."
+    },
+    {
+        "id": 20,
+        "name": "Natural Konjac Sponge",
+        "description": "Gentle facial cleansing sponge made from roots.",
+        "price": 8.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1754651065370-f6bc71aa921d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TmF0dXJhbCUyMEtvbmphYyUyMFNwb25nZXxlbnwwfHwwfHx8MA%3D%3D",
+        "extra_details": "Infused with Green Tea extract. pH balanced and suitable for sensitive skin."
+    },
+        {
+        "id": 9,
+        "name": "Reusable Safety Razor",
+        "description": "A sleek, plastic-free razor for a close shave. Built to last a lifetime with proper care.",
+        "price": 25.00,
+        "image_url": "https://plus.unsplash.com/premium_photo-1661340651600-365e5dbc9443?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UmV1c2FibGUlMjBTYWZldHklMjBSYXpvcnxlbnwwfHwwfHx8MA%3D%3D",
+        "extra_details": "Material: Durable Zinc Alloy with Rose Gold finish. Includes 5 stainless steel replacement blades."
+    }
+    
+]
